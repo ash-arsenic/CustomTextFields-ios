@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5050B6929A3395D006E93D9 /* CustomPasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5050B6829A3395D006E93D9 /* CustomPasswordField.swift */; };
+		C5050B6B29A33B10006E93D9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5050B6A29A33B10006E93D9 /* MainView.swift */; };
+		C5050B6D29A34483006E93D9 /* CustomSecuredField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5050B6C29A34483006E93D9 /* CustomSecuredField.swift */; };
+		C527B372299F6B3A009ABE63 /* HajmaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527B371299F6B3A009ABE63 /* HajmaApp.swift */; };
+		C527B374299F6B3A009ABE63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527B373299F6B3A009ABE63 /* ContentView.swift */; };
+		C527B376299F6B3B009ABE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C527B375299F6B3B009ABE63 /* Assets.xcassets */; };
+		C527B379299F6B3B009ABE63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C527B378299F6B3B009ABE63 /* Preview Assets.xcassets */; };
+		C527B380299F6B88009ABE63 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527B37F299F6B88009ABE63 /* CustomTextField.swift */; };
+		C550687229A3FFEC00B0884A /* CustomDateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C550687129A3FFEC00B0884A /* CustomDateField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5050B6829A3395D006E93D9 /* CustomPasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPasswordField.swift; sourceTree = "<group>"; };
+		C5050B6A29A33B10006E93D9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C5050B6C29A34483006E93D9 /* CustomSecuredField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecuredField.swift; sourceTree = "<group>"; };
+		C527B36E299F6B3A009ABE63 /* Hajma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hajma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C527B371299F6B3A009ABE63 /* HajmaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajmaApp.swift; sourceTree = "<group>"; };
+		C527B373299F6B3A009ABE63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C527B375299F6B3B009ABE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C527B378299F6B3B009ABE63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C527B37F299F6B88009ABE63 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C550687129A3FFEC00B0884A /* CustomDateField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDateField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C527B36B299F6B3A009ABE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C527B365299F6B3A009ABE63 = {
+			isa = PBXGroup;
+			children = (
+				C527B370299F6B3A009ABE63 /* Hajma */,
+				C527B36F299F6B3A009ABE63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C527B36F299F6B3A009ABE63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C527B36E299F6B3A009ABE63 /* Hajma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C527B370299F6B3A009ABE63 /* Hajma */ = {
+			isa = PBXGroup;
+			children = (
+				C527B371299F6B3A009ABE63 /* HajmaApp.swift */,
+				C5050B6A29A33B10006E93D9 /* MainView.swift */,
+				C527B373299F6B3A009ABE63 /* ContentView.swift */,
+				C550687129A3FFEC00B0884A /* CustomDateField.swift */,
+				C527B37F299F6B88009ABE63 /* CustomTextField.swift */,
+				C5050B6829A3395D006E93D9 /* CustomPasswordField.swift */,
+				C5050B6C29A34483006E93D9 /* CustomSecuredField.swift */,
+				C527B375299F6B3B009ABE63 /* Assets.xcassets */,
+				C527B377299F6B3B009ABE63 /* Preview Content */,
+			);
+			path = Hajma;
+			sourceTree = "<group>";
+		};
+		C527B377299F6B3B009ABE63 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C527B378299F6B3B009ABE63 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C527B36D299F6B3A009ABE63 /* Hajma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C527B37C299F6B3B009ABE63 /* Build configuration list for PBXNativeTarget "Hajma" */;
+			buildPhases = (
+				C527B36A299F6B3A009ABE63 /* Sources */,
+				C527B36B299F6B3A009ABE63 /* Frameworks */,
+				C527B36C299F6B3A009ABE63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hajma;
+			productName = Hajma;
+			productReference = C527B36E299F6B3A009ABE63 /* Hajma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C527B366299F6B3A009ABE63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C527B36D299F6B3A009ABE63 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C527B369299F6B3A009ABE63 /* Build configuration list for PBXProject "Hajma" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C527B365299F6B3A009ABE63;
+			productRefGroup = C527B36F299F6B3A009ABE63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C527B36D299F6B3A009ABE63 /* Hajma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C527B36C299F6B3A009ABE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C527B379299F6B3B009ABE63 /* Preview Assets.xcassets in Resources */,
+				C527B376299F6B3B009ABE63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C527B36A299F6B3A009ABE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C550687229A3FFEC00B0884A /* CustomDateField.swift in Sources */,
+				C527B374299F6B3A009ABE63 /* ContentView.swift in Sources */,
+				C527B372299F6B3A009ABE63 /* HajmaApp.swift in Sources */,
+				C5050B6929A3395D006E93D9 /* CustomPasswordField.swift in Sources */,
+				C5050B6B29A33B10006E93D9 /* MainView.swift in Sources */,
+				C527B380299F6B88009ABE63 /* CustomTextField.swift in Sources */,
+				C5050B6D29A34483006E93D9 /* CustomSecuredField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C527B37A299F6B3B009ABE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C527B37B299F6B3B009ABE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C527B37D299F6B3B009ABE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hajma/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arsenic.Hajma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C527B37E299F6B3B009ABE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hajma/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arsenic.Hajma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C527B369299F6B3A009ABE63 /* Build configuration list for PBXProject "Hajma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C527B37A299F6B3B009ABE63 /* Debug */,
+				C527B37B299F6B3B009ABE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C527B37C299F6B3B009ABE63 /* Build configuration list for PBXNativeTarget "Hajma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C527B37D299F6B3B009ABE63 /* Debug */,
+				C527B37E299F6B3B009ABE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C527B366299F6B3A009ABE63 /* Project object */;
+}
